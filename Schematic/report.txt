@@ -1,1 +1,1 @@
-Change symbol D1 from 'elec:Diode' to 'elec:Led': OK
+Change symbol C2 from 'elec:Capacitor' to 'Elec_Nigel:Capacitor_12_pF': OK
