@@ -1,0 +1,108 @@
+(footprint "Interrupter_SMD_Omron_B3S-1000"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "SW"
+		(at 0 -1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ab529590-ccf9-452e-838b-8b638c39bce3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_Push"
+		(at 0 1.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4e9e8e7d-10fe-44fe-94b2-3bf188c54476")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://octopart.com/datasheet/omron/B3S-1000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b51078b2-592a-4737-9752-1ba1c1a1c58d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "without ground terminal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e0e5a00-2279-4470-bc9b-b719d2525ae5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only)
+	(fp_rect
+		(start -3.1 -3.1)
+		(end 2.9 2.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6ee4139c-73f4-45fb-b9b8-a67406ce46d0")
+	)
+	(fp_rect
+		(start -5.5 -4)
+		(end 5.5 3.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bf543340-9ddb-40fb-a152-de2f7e1beb48")
+	)
+	(pad "1" smd roundrect
+		(at -4 2.2)
+		(size 1.55 1.3)
+		(layers "F.Cu")
+		(roundrect_rratio 0.15)
+		(uuid "bf6e857d-46d4-4ed4-a94a-f7b07267a8ac")
+	)
+	(pad "1" smd roundrect
+		(at 3.9 2.2)
+		(size 1.55 1.3)
+		(layers "F.Cu")
+		(roundrect_rratio 0.15)
+		(uuid "9f25e8fd-b38b-4c3e-a746-5f0b3bdb48be")
+	)
+	(pad "2" smd roundrect
+		(at -4 -2.3)
+		(size 1.55 1.3)
+		(layers "F.Cu")
+		(roundrect_rratio 0.15)
+		(uuid "1bc08906-ae0b-4837-b0ae-c85658294db7")
+	)
+	(pad "2" smd roundrect
+		(at 3.9 -2.3)
+		(size 1.55 1.3)
+		(layers "F.Cu")
+		(roundrect_rratio 0.15)
+		(uuid "0e980fcd-04c0-4e3e-b11e-05331d963126")
+	)
+	(embedded_fonts no)
+)

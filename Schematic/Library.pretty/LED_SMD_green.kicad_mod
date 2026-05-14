@@ -1,0 +1,98 @@
+(footprint "LED_SMD_green"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "KP-1608SGD"
+		(at -13.49 -10.44 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4455403f-dad0-46b8-af6b-927dafdfcb2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "D1-green"
+		(at -0.02 -1.67 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe70599e-c8f0-47cd-aec1-829732f555e2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A500/KP-1608SGD.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49ad1679-dcf1-4dba-b379-c76b422d789c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1de4f520-97a6-4707-9b89-6ce31df05612")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only)
+	(fp_rect
+		(start -1.72 -0.87)
+		(end 1.68 0.93)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "32a6c658-5ec0-4eaa-9497-1c0c8de04216")
+	)
+	(fp_text user "+"
+		(at -2.81 0.42 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "79c60d6d-26da-45a7-b87e-9a69635d8173")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.92 0.03)
+		(size 0.95 1.08)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1968503937)
+		(uuid "b1abf526-3eba-4509-b588-7c8c5b1fd2db")
+	)
+	(pad "2" smd roundrect
+		(at 0.88 0.03)
+		(size 0.95 1.08)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1968503937)
+		(uuid "9058fcd0-8a69-4abe-97de-ab696ca6b897")
+	)
+	(embedded_fonts no)
+)

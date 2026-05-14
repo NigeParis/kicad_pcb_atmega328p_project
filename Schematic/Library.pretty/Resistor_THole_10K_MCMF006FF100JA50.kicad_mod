@@ -1,0 +1,111 @@
+(footprint "Resistor_THole_10K_MCMF006FF100JA50"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor to be soldered through hole")
+	(tags "resistor 10k pin")
+	(property "Reference" "R"
+		(at 0.1 -1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d60d0132-58d9-432a-9b94-54c704550988")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "10K"
+		(at -1.7 -2.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86def038-87a8-41a6-b3f6-fd572f9f9cad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.farnell.com/datasheets/1804148.pdf"
+		(at -2.6 -4.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d7bfde5-84e9-4606-b2d8-bac63aa7a6f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resitor_10_K_"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4862097-6680-40ac-a3f1-1e5408a0b1fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole board_only)
+	(fp_rect
+		(start -6.3 -2.3)
+		(end 6.6 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "04622f88-5e7e-451b-9ee4-8d1d01c29af3")
+	)
+	(fp_text user "10K"
+		(at 0.1 1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b81bb170-548b-43d2-8516-37e945525d9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -4 0.1)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "54b2695b-3c69-4847-b132-f660af448be8")
+	)
+	(pad "2" thru_hole circle
+		(at 4 0.1)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "7ad85c90-3b1d-4f56-a833-ec868eb5b123")
+	)
+	(embedded_fonts no)
+)

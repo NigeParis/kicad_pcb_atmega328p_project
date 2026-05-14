@@ -1,1 +1,1 @@
-# kicad_project_version_2
+# kicad_PCB_project

@@ -1,0 +1,93 @@
+(footprint "Capacitor_1uF_SK010M050ST"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "C"
+		(at -0.8 -1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3499abb7-f22b-4212-bcd5-fb57e75d8e7c")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.075)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "1uF"
+		(at 1 -1.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d737aeb5-a490-490b-9118-d234afc67cdc")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.075)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.cde.com/resources/catalogs/SK.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "537d75cf-a9dc-4565-83a4-3028ccd6dc0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89c449fa-b6b4-4d13-8d8d-29b44e7e75c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole board_only)
+	(fp_rect
+		(start -3.1 -2)
+		(end 3.2 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6191f16e-8213-4c03-97ea-97920ecc6ea7")
+	)
+	(pad "1" thru_hole roundrect
+		(at -1 0 180)
+		(size 2 1)
+		(drill 0.5
+			(offset 0.6 0)
+		)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "15a1fa9d-c90b-4797-885d-09354e14e865")
+	)
+	(pad "2" thru_hole roundrect
+		(at 1 0)
+		(size 2 1)
+		(drill 0.5
+			(offset 0.6 0)
+		)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.4)
+		(uuid "394a5aa3-f6b7-42bd-8dfb-e9c628d85827")
+	)
+	(embedded_fonts no)
+)

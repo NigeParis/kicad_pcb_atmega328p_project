@@ -1,0 +1,84 @@
+(footprint "Resistor_SMD_330_ohms__RC1206FR-07330RL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "R"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "928eaf8b-5852-44bb-abe2-41b280ce7a23")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "330"
+		(at 0 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c2627592-330e-4771-8a07-0d3e2ba62005")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" "https://static6.arrow.com/aropdfconversion/b0403a67d7648090bd2c1d76cd3b32a9799dce24/nrc.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac6da848-1c21-49c8-80fd-7b025dc3efe5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RC1206 model"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecf1b456-fe88-4cf8-81ec-a149acf215b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only)
+	(fp_rect
+		(start -1.7 -0.9)
+		(end 1.7 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "85b7e422-3079-4f04-b607-dad6a8930476")
+	)
+	(pad "1" smd roundrect
+		(at -0.9 0)
+		(size 0.95 1.08)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1968503937)
+		(uuid "a9081fbf-f612-4025-8be0-ac4f85693bf9")
+	)
+	(pad "2" smd roundrect
+		(at 0.9 0)
+		(size 0.95 1.08)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1968503937)
+		(uuid "77da5fcf-05dc-4be0-9c86-f63003d1541f")
+	)
+	(embedded_fonts no)
+)
