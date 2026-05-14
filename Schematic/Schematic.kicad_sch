@@ -1552,16 +1552,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
-				(at 10.16 3.81 0)
+			(property "Reference" "Y1"
+				(at 12.7 6.4202 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "16 Mhz"
+				(at 12.7 3.8802 0)
 				(effects
 					(font
 						(size 1.27 1.27)
