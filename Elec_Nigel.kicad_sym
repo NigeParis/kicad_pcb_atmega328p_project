@@ -819,6 +819,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "Capacitor_1uF"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -915,7 +921,7 @@
 			(pin passive line
 				(at 0 -3.81 90)
 				(length 2.54)
-				(name ""
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -929,6 +935,7 @@
 						)
 					)
 				)
+				(alternate "(Net-(C6-GND))" passive line)
 			)
 		)
 		(embedded_fonts no)

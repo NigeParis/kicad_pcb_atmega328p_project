@@ -1,4 +1,4 @@
-30238796487773
+32017736071451
 Library
 Capacitor_1uF_SK010M050ST
 
@@ -112,9 +112,16 @@ C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 2
 2
 Library
+SmD_603
+C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+
+0
+2
+2
+Library
 atMega328P
 
 
 0
 32
-32
+29

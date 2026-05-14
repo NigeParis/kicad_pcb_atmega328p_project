@@ -158,7 +158,7 @@
 	(net 31 "A6")
 	(net 32 "A7")
 	(net 33 "A4")
-	(footprint "Library:SMD_603"
+	(footprint "Library:SmD_603"
 		(layer "F.Cu")
 		(uuid "0130ca6e-7da9-4bf8-b375-b4b5e348d6d1")
 		(at 146.6 122.5)
@@ -230,7 +230,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "d223f1a0-9f63-45ae-92d6-537c0006140b")
+			(uuid "997a8bcf-8cde-409a-bc89-f55ce5ecab4e")
 		)
 		(pad "1" smd roundrect
 			(at -0.9 0)
@@ -252,7 +252,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:SMD_603"
+	(footprint "Library:SmD_603"
 		(layer "F.Cu")
 		(uuid "0291b03e-f110-45e4-8749-25484e2b086a")
 		(at 136.5 121.5)
@@ -285,7 +285,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -324,12 +324,12 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "6af4d2f2-b19e-46fe-8183-1ccbdf0c8394")
+			(uuid "8f86203b-d98d-49d3-a0f1-9f71cb15d51e")
 		)
 		(pad "1" smd roundrect
 			(at -0.9 0)
 			(size 0.95 1.08)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.1968503937)
 			(net 3 "Net-(U1-XTAL1{slash}PB6)")
 			(pintype "passive")
@@ -338,7 +338,7 @@
 		(pad "2" smd roundrect
 			(at 0.9 0)
 			(size 0.95 1.08)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.1968503937)
 			(net 2 "Net-(#PWR8-Pad1)")
 			(pintype "passive")
@@ -346,7 +346,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:SMD_603"
+	(footprint "Library:SmD_603"
 		(layer "F.Cu")
 		(uuid "08894666-2b97-479b-b955-72703e356b49")
 		(at 145.1 108.5 180)
@@ -379,7 +379,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -418,12 +418,12 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "70f06500-adb8-4956-bcb3-d78353c4bcff")
+			(uuid "98f86aab-c1ab-4a47-9278-39bb4fc7836d")
 		)
 		(pad "1" smd roundrect
 			(at -0.9 0 180)
 			(size 0.95 1.08)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.1968503937)
 			(net 6 "RAW")
 			(pintype "passive")
@@ -432,10 +432,21 @@
 		(pad "2" smd roundrect
 			(at 0.9 0 180)
 			(size 0.95 1.08)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.1968503937)
 			(net 17 "GND")
 			(pintype "passive")
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 1)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curved_edges no)
+				(filter_ratio 0.9)
+				(enabled yes)
+				(allow_two_segments yes)
+				(prefer_zone_connections yes)
+			)
 			(uuid "e5930f9e-6af9-426a-bcdc-22c59aa0d1ee")
 		)
 		(embedded_fonts no)
@@ -979,7 +990,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:SMD_603"
+	(footprint "Library:SmD_603"
 		(layer "F.Cu")
 		(uuid "1a576767-09f6-45c9-8faa-4bc740708968")
 		(at 168.5 116.6 -90)
@@ -1012,7 +1023,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1051,12 +1062,12 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "abb9951a-fdb6-4d31-a7fb-7519caf09487")
+			(uuid "6b3cc1eb-0a06-4c6e-a2ed-c484188ab9f7")
 		)
 		(pad "1" smd roundrect
 			(at -0.9 0 270)
 			(size 0.95 1.08)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.1968503937)
 			(net 24 "VCC")
 			(pintype "passive")
@@ -1065,7 +1076,7 @@
 		(pad "2" smd roundrect
 			(at 0.9 0 270)
 			(size 0.95 1.08)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.1968503937)
 			(net 4 "Net-(U1-AREF)")
 			(pintype "passive")
@@ -1073,7 +1084,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:SMD_603"
+	(footprint "Library:SmD_603"
 		(layer "F.Cu")
 		(uuid "1fa44615-d2ea-486f-bbc0-372fc7bf4f3e")
 		(at 163 116.6 -90)
@@ -1145,7 +1156,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "01496393-7471-4191-96eb-c5726cc72f8e")
+			(uuid "a44be129-1fd8-4af7-9709-529d88807a2c")
 		)
 		(pad "1" smd roundrect
 			(at -0.9 0 270)
@@ -1167,7 +1178,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:SMD_603"
+	(footprint "Library:SmD_603"
 		(layer "F.Cu")
 		(uuid "31068bfb-6e35-4ddd-9203-722d27196dc0")
 		(at 147 139.5 90)
@@ -1200,7 +1211,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1239,7 +1250,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "bf73ea83-11ec-43cf-9892-7d6008d01e64")
+			(uuid "956b725f-3f1b-41e2-b25a-5ac249245c92")
 		)
 		(pad "1" smd roundrect
 			(at -0.9 0 90)
@@ -1261,7 +1272,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:SMD_603"
+	(footprint "Library:SmD_603"
 		(layer "F.Cu")
 		(uuid "51582745-3adb-4443-950d-da8c2df8b6e6")
 		(at 132.5 106.9 -90)
@@ -1294,7 +1305,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1333,12 +1344,12 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "5a8a51f2-a2df-4119-b722-92d837372280")
+			(uuid "d1b07423-d62b-4279-81e7-7795606d85e0")
 		)
 		(pad "1" smd roundrect
 			(at -0.9 0 270)
 			(size 0.95 1.08)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.1968503937)
 			(net 6 "RAW")
 			(pintype "passive")
@@ -1347,7 +1358,7 @@
 		(pad "2" smd roundrect
 			(at 0.9 0 270)
 			(size 0.95 1.08)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.1968503937)
 			(net 17 "GND")
 			(pintype "passive")
@@ -1473,7 +1484,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:SMD_603"
+	(footprint "Library:SmD_603"
 		(layer "F.Cu")
 		(uuid "8a842248-2c26-4959-b24d-563c7e45b131")
 		(at 147 114.6 -90)
@@ -1506,7 +1517,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1545,12 +1556,12 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "9a4d0fab-e9ea-474f-b18b-9da62b1f85a5")
+			(uuid "00284cfe-3ef4-4441-b2ca-76996463b82b")
 		)
 		(pad "1" smd roundrect
 			(at -0.9 0 270)
 			(size 0.95 1.08)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.1968503937)
 			(net 1 "Net-(U1-XTAL2{slash}PB7)")
 			(pintype "passive")
@@ -1559,7 +1570,7 @@
 		(pad "2" smd roundrect
 			(at 0.9 0 270)
 			(size 0.95 1.08)
-			(layers "F.Cu" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.1968503937)
 			(net 2 "Net-(#PWR8-Pad1)")
 			(pintype "passive")
@@ -1951,7 +1962,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:SMD_603"
+	(footprint "Library:SmD_603"
 		(layer "F.Cu")
 		(uuid "9d9d8ebf-c703-4c05-99e6-e6d8495e19d0")
 		(at 158 116.5 90)
@@ -1984,7 +1995,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A500/KP-1608ID(VER.9A).pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2023,7 +2034,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "446b107d-d8a9-4acd-935e-cc885fcb302e")
+			(uuid "5b84fb8d-021e-4de9-995f-6516ec0ca9b6")
 		)
 		(pad "1" smd roundrect
 			(at -0.9 0 90)
@@ -2045,7 +2056,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:SMD_603"
+	(footprint "Library:SmD_603"
 		(layer "F.Cu")
 		(uuid "d9f027f5-cbe4-4602-ba9c-7325f53b029e")
 		(at 145.03 104.53 180)
@@ -2078,7 +2089,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A500/KP-1608ID(VER.9A).pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2117,7 +2128,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "cc80c943-192d-42e7-aa7a-7d519da5c99c")
+			(uuid "d37a904a-e12d-446a-88d3-326c3371179e")
 		)
 		(pad "1" smd roundrect
 			(at -0.9 0 180)
@@ -2144,25 +2155,25 @@
 		(uuid "e14a47f3-0234-485d-8748-0785ed6f7401")
 		(at 136.9 114.6)
 		(property "Reference" "Y1"
-			(at -1.7 -2.2 0)
+			(at -0.9 -2.2 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b92cafb9-493c-476f-8204-810d89f00118")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.8 0.8)
 					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "16 Mhz"
-			(at 0.6 -2.2 0)
+			(at 2.6 -2.2 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a610b77c-5c8a-4866-b122-d41933f57684")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.8 0.8)
 					(thickness 0.1)
 					(bold yes)
 				)
@@ -2269,27 +2280,27 @@
 			(layer "F.CrtYd")
 			(uuid "4171dc0c-738f-45ac-a752-ac0ea2fd7c88")
 		)
-		(fp_text user "GND"
-			(at -3.9 -0.5 0)
+		(fp_text user "G"
+			(at -3.4 -0.6 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "509bf501-bd43-4d7b-9a04-72fed43e7dfd")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.8 0.8)
 					(thickness 0.1)
 				)
 				(justify left bottom)
 			)
 		)
 		(fp_text user "GND"
-			(at 2.3 2.4 0)
+			(at 2.3 2.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "5bf16fec-1ffe-4844-a083-04f2739841e7")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.8 0.8)
 					(thickness 0.1)
 				)
 				(justify left bottom)
@@ -2333,7 +2344,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:SMD_603"
+	(footprint "Library:SmD_603"
 		(layer "F.Cu")
 		(uuid "e606af88-5001-433e-a918-58d9f1bd6327")
 		(at 139.35 106 180)
@@ -2405,7 +2416,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "b8944423-e581-4a31-b95b-1d75457815f8")
+			(uuid "5f7b4c50-66c0-4511-9ff3-df902590309a")
 		)
 		(pad "1" smd roundrect
 			(at -0.9 0 180)
@@ -5313,6 +5324,42 @@
 		(layer "F.Cu")
 		(net 29)
 		(uuid "f34284f5-2ede-4e61-aba8-2e048dcabf1e")
+	)
+	(zone
+		(net 17)
+		(net_name "GND")
+		(layer "F.Cu")
+		(uuid "6793ef15-3b74-04f9-37b4-fa271b3eec9c")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 143.25 108.4) (xy 143.25 108.6) (xy 143.77294 108.975) (xy 144.201 108.5) (xy 143.77294 108.025)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 143.25 108.4) (xy 143.25 108.6) (xy 143.77294 108.975) (xy 144.201 108.5) (xy 143.77294 108.025)
+			)
+		)
 	)
 	(embedded_fonts no)
 )

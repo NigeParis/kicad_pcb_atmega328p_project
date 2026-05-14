@@ -1,15 +1,15 @@
-(footprint "SMD_603"
+(footprint "SmD_603"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-	(property "Reference" "D1"
+	(property "Reference" "R3"
 		(at -1.1 -1.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "f5e94456-0711-4593-88d3-72a153b589dc")
+		(uuid "6afd6401-d9dc-4052-a650-048199a96278")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -18,12 +18,12 @@
 			)
 		)
 	)
-	(property "Value" "GREEN"
+	(property "Value" "10K"
 		(at 0.7 -1.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c794a353-7b29-4f33-93ae-e4c3de3f5f92")
+		(uuid "4caa850b-8c9a-45f5-a04d-8afb1f9c9a9c")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -32,12 +32,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A500/KP-1608ID(VER.9A).pdf"
+	(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4235ca1d-bf41-497f-a718-b655bda808fa")
+		(uuid "2a06948f-5606-4f19-80ad-ff89b9043476")
 		(effects
 			(font
 				(size 1 1)
@@ -50,7 +50,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d1d90c8b-ad74-4358-99df-c9c47092914c")
+		(uuid "e59316cd-ad71-47b0-aec8-834d3578dd06")
 		(effects
 			(font
 				(size 1 1)
@@ -68,21 +68,21 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d9e18e70-da43-461a-aa01-04c1ce4ba23a")
+		(uuid "ae83d596-f2b6-4013-b36d-fd20d98be780")
 	)
 	(pad "1" smd roundrect
 		(at -0.9 0)
 		(size 0.95 1.08)
 		(layers "F.Cu")
 		(roundrect_rratio 0.1968503937)
-		(uuid "4df2820c-b654-476e-8e29-1efb7eb453d0")
+		(uuid "74a29057-3e49-492d-b20d-cb4ea1313790")
 	)
 	(pad "2" smd roundrect
 		(at 0.9 0)
 		(size 0.95 1.08)
 		(layers "F.Cu")
 		(roundrect_rratio 0.1968503937)
-		(uuid "2a45c3e7-b162-496b-b8cf-43ebb9ec4d01")
+		(uuid "dcf3a89c-8c35-4348-8aad-4fb454297067")
 	)
 	(embedded_fonts no)
 )
