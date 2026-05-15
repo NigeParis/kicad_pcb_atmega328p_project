@@ -3,11 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "FDTI"
+	(property "Reference" "J3"
 		(at -0.05 -8.78 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "bc3c6a40-ae9c-48be-977c-f416cc029e91")
+		(uuid "2fd85946-d622-4a3a-9dc0-b22dd3f2f30a")
 		(effects
 			(font
 				(size 1 1)
@@ -15,12 +15,12 @@
 			)
 		)
 	)
-	(property "Value" "J"
+	(property "Value" "FTDI"
 		(at -0.53 -10.74 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ad1a6a40-1843-4da7-a884-9eb599a29d84")
+		(uuid "073a693b-bcba-4423-b14c-3464250f3f7b")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "29a9778b-9884-42ef-a3b7-d093cb7f5420")
+		(uuid "d523ef43-cf20-4354-b369-b2ff55fdfe28")
 		(effects
 			(font
 				(size 1 1)
@@ -41,12 +41,12 @@
 			)
 		)
 	)
-	(property "Description" "connection FDTI - 6 broches"
+	(property "Description" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ebec656a-de09-4bf4-9587-92057505154a")
+		(uuid "65680b45-0b30-43e8-8121-dcd611b267c3")
 		(effects
 			(font
 				(size 1 1)
@@ -55,10 +55,10 @@
 		)
 	)
 	(property "clearence" "Drill: 1.02 mm Pad diameter: 1.52 mm Clearance to next pad: 1.02 mm"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c74e15c4-a458-4f39-8761-f2c5a16849ff")
+		(uuid "e563c424-3451-4a5c-a91e-65fe28a3ab25")
 		(effects
 			(font
 				(size 1 1)
@@ -76,7 +76,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "08e2c9fe-0047-45c8-a3e6-80e32cd73a80")
+		(uuid "a5f566df-205f-4d10-af2d-12383c3b4906")
 	)
 	(pad "1" thru_hole rect
 		(at 0 6.35)
@@ -84,7 +84,7 @@
 		(drill 1.02)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "d0924616-909f-4c31-b4e5-cf3f2c509425")
+		(uuid "46735a33-b7a9-4bc0-b917-038d5139b187")
 	)
 	(pad "2" thru_hole circle
 		(at 0 3.81)
@@ -92,7 +92,7 @@
 		(drill 1.02)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "b4cb67bd-014d-4a73-b841-5683e804336b")
+		(uuid "0fcffef0-f59a-408a-93ea-7731fe54183c")
 	)
 	(pad "3" thru_hole circle
 		(at 0 1.27)
@@ -100,7 +100,7 @@
 		(drill 1.02)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "b882c645-ffd6-4e8f-a1a6-519304256092")
+		(uuid "a84eb2db-ad51-4d73-b0d1-0a31f18b4261")
 	)
 	(pad "4" thru_hole circle
 		(at 0 -1.27)
@@ -108,7 +108,7 @@
 		(drill 1.02)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "b1de431e-a968-410c-a1b4-7f8389637a68")
+		(uuid "17322b76-8d9f-4dd3-9293-132d064134fe")
 	)
 	(pad "5" thru_hole circle
 		(at 0 -3.81)
@@ -116,7 +116,7 @@
 		(drill 1.02)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "8b9e2fd5-073d-4ad7-85b9-c851911e1f8a")
+		(uuid "177a32b4-5bea-40f1-9807-bea68e704a1d")
 	)
 	(pad "6" thru_hole circle
 		(at 0 -6.35)
@@ -124,7 +124,7 @@
 		(drill 1.02)
 		(layers "*.Cu")
 		(remove_unused_layers no)
-		(uuid "21fdb828-ab06-42f1-9127-2535a08a0542")
+		(uuid "058f9df1-8161-41a9-b955-c9ef05996790")
 	)
 	(embedded_fonts no)
 )
