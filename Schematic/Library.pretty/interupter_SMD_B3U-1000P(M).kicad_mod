@@ -1,0 +1,98 @@
+(footprint "interupter_SMD_B3U-1000P(M)"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -18.82 -17.13 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b79b4ae1-d38f-45a3-bf3b-dbc3cfee6802")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "interupter_SMD_B3U-1000P(M)"
+		(at -18.82 -15.63 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b263f0b0-e597-404e-99f6-ae3253a4ad1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "303cf46f-797a-47dc-a5a4-6282daee3da1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fea2a5b8-3d3d-4d29-b84d-3d09d2b85280")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only)
+	(fp_rect
+		(start -2.25 -1.005)
+		(end 2.21 1.005)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d3919d63-a8e0-492c-9e2e-7ddf520e5885")
+	)
+	(fp_text user "SW"
+		(at -1.19 0.59 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b002a9c0-306f-4024-97a0-c3d75b7bdd9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.72 0.015)
+		(size 0.8 1.7)
+		(layers "F.Cu")
+		(roundrect_rratio 0.15)
+		(uuid "86dd615a-4dd8-410e-9730-bddc93a9f857")
+	)
+	(pad "2" smd roundrect
+		(at 1.68 0.015)
+		(size 0.8 1.7)
+		(layers "F.Cu")
+		(roundrect_rratio 0.15)
+		(uuid "bcd56437-8833-4ba1-b62f-9c73b9d94bbc")
+	)
+	(embedded_fonts no)
+)

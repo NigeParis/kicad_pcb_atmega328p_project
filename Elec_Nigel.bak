@@ -172,6 +172,7 @@
 						)
 					)
 				)
+				(alternate "VCC" power_in line)
 			)
 			(pin bidirectional line
 				(at 19.05 31.75 180)

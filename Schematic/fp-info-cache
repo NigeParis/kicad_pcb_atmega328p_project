@@ -1,4 +1,4 @@
-32017942990416
+33796870097093
 Library
 Capacitor_1uF_SK010M050ST
 
@@ -125,3 +125,10 @@ atMega328P
 0
 32
 29
+Library
+interupter_SMD_B3U-1000P(M)
+
+
+0
+2
+2
