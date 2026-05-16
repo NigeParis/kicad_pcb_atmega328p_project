@@ -1,15 +1,15 @@
-(footprint "SMD_603"
+(footprint "SMD_603_C1"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-	(property "Reference" "C6"
+	(property "Reference" "C1"
 		(at -1.1 -1.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "22b1e99c-be91-44a7-bae4-a7be7aa6efae")
+		(uuid "867d8644-9e62-4140-80ac-156a41e4d4cd")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -18,12 +18,12 @@
 			)
 		)
 	)
-	(property "Value" "1uF"
+	(property "Value" "12 pF"
 		(at 0.7 -1.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "cda2efbe-b52e-42dd-bfa0-75ffe60d0d85")
+		(uuid "cdb6edbd-4a71-45b5-978c-4194bc1a76a9")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -37,7 +37,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c2c07840-5b0d-4255-a69b-85e6aa6b80f9")
+		(uuid "e82008d4-0546-4e3d-994e-da209dca81bb")
 		(effects
 			(font
 				(size 1 1)
@@ -50,7 +50,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0deb7466-1f7b-415d-9c4c-33d8c477a3eb")
+		(uuid "d816d263-2a88-466d-bc48-1b167d36621a")
 		(effects
 			(font
 				(size 1 1)
@@ -68,21 +68,21 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "1a9d5412-a55e-4774-9369-030e0538958f")
+		(uuid "d4844b60-6c85-4196-b579-e51ff95cbf48")
 	)
 	(pad "1" smd roundrect
 		(at -0.9 0)
 		(size 0.95 1.08)
-		(layers "F.Cu")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1968503937)
-		(uuid "cec4cc22-2fde-45ad-a215-cf20b6433528")
+		(uuid "c54b232a-dff5-4ecd-9500-6ab2ff30990e")
 	)
 	(pad "2" smd roundrect
 		(at 0.9 0)
 		(size 0.95 1.08)
-		(layers "F.Cu")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1968503937)
-		(uuid "e0136a5c-3c68-4430-99f7-90d39330b0f5")
+		(uuid "5e09afa0-2bfc-4ca8-b110-c07c8dce1e32")
 	)
 	(embedded_fonts no)
 )

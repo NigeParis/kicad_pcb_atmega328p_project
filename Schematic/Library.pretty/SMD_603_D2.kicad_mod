@@ -1,15 +1,15 @@
-(footprint "SMD_603"
+(footprint "SMD_603_D2"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-	(property "Reference" "C6"
+	(property "Reference" "D2"
 		(at -1.1 -1.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "22b1e99c-be91-44a7-bae4-a7be7aa6efae")
+		(uuid "0603ca1a-76d2-4a72-a31c-85f41dbe6f05")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -18,12 +18,12 @@
 			)
 		)
 	)
-	(property "Value" "1uF"
+	(property "Value" "RED"
 		(at 0.7 -1.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "cda2efbe-b52e-42dd-bfa0-75ffe60d0d85")
+		(uuid "f68d931a-e19d-455b-bf33-93788ebd4e67")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -32,12 +32,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+	(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A500/KP-1608ID(VER.9A).pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c2c07840-5b0d-4255-a69b-85e6aa6b80f9")
+		(uuid "a0095db3-2468-4204-b430-978a9419ea8a")
 		(effects
 			(font
 				(size 1 1)
@@ -50,7 +50,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0deb7466-1f7b-415d-9c4c-33d8c477a3eb")
+		(uuid "0f73c7a8-998d-4755-86d3-9e3a3989519a")
 		(effects
 			(font
 				(size 1 1)
@@ -68,21 +68,34 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "1a9d5412-a55e-4774-9369-030e0538958f")
+		(uuid "4d6d9115-0dbb-4063-b4f6-cd4371663e19")
+	)
+	(fp_text user "+"
+		(at -1.53 -0.99 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "050135d0-f748-4d12-bdd5-9c350297a44d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" smd roundrect
 		(at -0.9 0)
 		(size 0.95 1.08)
-		(layers "F.Cu")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1968503937)
-		(uuid "cec4cc22-2fde-45ad-a215-cf20b6433528")
+		(uuid "60346d94-a4a3-4bba-ae11-c0dd0b8a4951")
 	)
 	(pad "2" smd roundrect
 		(at 0.9 0)
 		(size 0.95 1.08)
-		(layers "F.Cu")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1968503937)
-		(uuid "e0136a5c-3c68-4430-99f7-90d39330b0f5")
+		(uuid "5bb478a2-186f-4541-9a81-9bbec469ad1f")
 	)
 	(embedded_fonts no)
 )

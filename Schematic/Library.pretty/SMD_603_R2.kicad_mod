@@ -1,15 +1,15 @@
-(footprint "SMD_603"
+(footprint "SMD_603_R2"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
-	(property "Reference" "C6"
+	(property "Reference" "R2"
 		(at -1.1 -1.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "22b1e99c-be91-44a7-bae4-a7be7aa6efae")
+		(uuid "cf89a740-ad8e-4a79-a82c-08423d2b0821")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -18,12 +18,12 @@
 			)
 		)
 	)
-	(property "Value" "1uF"
+	(property "Value" "10K"
 		(at 0.7 -1.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "cda2efbe-b52e-42dd-bfa0-75ffe60d0d85")
+		(uuid "b84a9f9a-d999-4d3f-9ae5-2eb9d5cbf049")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -32,12 +32,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+	(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c2c07840-5b0d-4255-a69b-85e6aa6b80f9")
+		(uuid "59897109-51ab-475f-aed0-03fef6b16d65")
 		(effects
 			(font
 				(size 1 1)
@@ -50,7 +50,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0deb7466-1f7b-415d-9c4c-33d8c477a3eb")
+		(uuid "8e81ad96-e68a-429c-a411-22c01def47fd")
 		(effects
 			(font
 				(size 1 1)
@@ -68,21 +68,21 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "1a9d5412-a55e-4774-9369-030e0538958f")
+		(uuid "7212e9fe-52b5-4247-9e83-4583742de0bc")
 	)
 	(pad "1" smd roundrect
 		(at -0.9 0)
 		(size 0.95 1.08)
-		(layers "F.Cu")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1968503937)
-		(uuid "cec4cc22-2fde-45ad-a215-cf20b6433528")
+		(uuid "22cdb901-8caf-4230-bc34-a2ef103e5890")
 	)
 	(pad "2" smd roundrect
 		(at 0.9 0)
 		(size 0.95 1.08)
-		(layers "F.Cu")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1968503937)
-		(uuid "e0136a5c-3c68-4430-99f7-90d39330b0f5")
+		(uuid "5882a6ec-b0cb-48d8-99c7-b91ef7731afd")
 	)
 	(embedded_fonts no)
 )
