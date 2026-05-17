@@ -1,1 +1,3 @@
-# kicad_PCB_project
+# kicad_PCB_project - 42 CHIPS
+
+
