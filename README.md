@@ -29,3 +29,58 @@
 | Microcontroller (U) | 1 |
 | Crystal (Y) | 1 |
 | **Total components** | **17** |
+
+
+
+# Pinout — Schematic (ATmega328P-A)
+
+## J1 (12-pin, left connector)
+
+| Pin | Signal |
+|-----|--------|
+| 12  | TXO    |
+| 11  | RXI    |
+| 10  | RST    |
+| 9   | GND    |
+| 8   | D2     |
+| 7   | D3     |
+| 6   | D4     |
+| 5   | D5     |
+| 4   | D6     |
+| 3   | D7     |
+| 2   | D8     |
+| 1   | D9     |
+
+---
+
+## J2 (12-pin, right connector)
+
+| Pin | Signal |
+|-----|--------|
+| 1   | RAW    |
+| 2   | GND    |
+| 3   | RST    |
+| 4   | VCC    |
+| 5   | A3     |
+| 6   | A2     |
+| 7   | A1     |
+| 8   | A0     |
+| 9   | SCK    |
+| 10  | MISO   |
+| 11  | MOSI   |
+| 12  | D10    |
+
+---
+
+## J3 — FTDI (6-pin)
+
+| Pin | Signal |
+|-----|--------|
+| 6   | GND    |
+| 5   | GND    |
+| 4   | VCC    |
+| 3   | RXI    |
+| 2   | TXO    |
+| 1   | DTR    |
+
+
