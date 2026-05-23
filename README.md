@@ -83,7 +83,42 @@
 | 2   | TXO    |
 | 1   | DTR    |
 
-Top View Drawings
+## 0603 SMD LED
+
+**Imperial:** 0603 | **Metric equivalent:** 1608  
+**Dimensions:** 1.6 × 0.8 × 0.8 mm (L × W × H)
+
+### Top View
+
+```
+           1.6 mm
+   ┌───────────────────┐
+   │                   │  0.8 mm
+   │   ╔═══════════╗   │
+   │   ║    DIE    ║   │
+   │   ╚═══════════╝   │
+   │                   │
+   └───────────────────┘
+   [+]              [-]
+  Anode           Cathode
+```
+
+### Dimensions Summary
+
+| Parameter        | Value      |
+|-----------------|------------|
+| Length (L)       | 1.6 mm     |
+| Width (W)        | 0.8 mm     |
+| Height (H)       | 0.8 mm     |
+| Pad size (each)  | ~0.8 × 0.9 mm |
+| Pad pitch        | ~0.8 mm    |
+
+### Notes
+- Machine assembly strongly recommended; hand-soldering possible but challenging
+- Typical forward current: 20 mA
+- Typical forward voltage: 2.0–3.5 V (color-dependent)
+- Cathode typically marked with a dot, triangle, or band on the package
+
 
 
 
