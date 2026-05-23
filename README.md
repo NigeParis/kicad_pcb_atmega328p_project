@@ -130,7 +130,42 @@ The atmega328P-au was hard to do, had to resolder it 5 times until placed exactl
 size of the MCU is 7mm x 7mm and 32 pads </br>
 example size of a LED 
 
-Top View Drawings
+# SMD LED Package Dimensions: 0402 & 0603
+
+> Imperial package codes — dimensions in **millimeters (mm)**
+
+---
+
+## 0402 SMD LED
+
+**Imperial:** 0402 | **Metric equivalent:** 1005  
+**Dimensions:** 1.0 × 0.5 × 0.5 mm (L × W × H)
+
+### Top View
+
+```
+        1.0 mm
+   ┌─────────────┐
+   │             │  0.5 mm
+   │  ╔═══════╗  │
+   │  ║  DIE  ║  │
+   │  ╚═══════╝  │
+   │             │
+   └─────────────┘
+   [+]         [-]
+  Anode      Cathode
+```
+
+### Dimensions Summary
+
+| Parameter        | Value     |
+|-----------------|-----------|
+| Length (L)       | 1.0 mm    |
+| Width (W)        | 0.5 mm    |
+| Height (H)       | 0.5 mm    |
+| Pad size (each)  | ~0.5 × 0.5 mm |
+| Pad pitch        | ~0.6 mm   |
+
 
 
 
