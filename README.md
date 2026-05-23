@@ -83,13 +83,42 @@
 | 2   | TXO    |
 | 1   | DTR    |
 
+Top View Drawings
+0603 — 1.6 × 0.8 mm
+        ←———————— 1.6 mm ————————→
+
+    ┌───┐┌──────────────────────┐┌───┐
+    │   ││                      ││   │
+↕   │   ││  A              K    ││   │
+0.8 │   ││                 ╎    ││   │
+mm  │   ││                      ││   │
+    └───┘└──────────────────────┘└───┘
+     pad          body            pad
+
 
 <img width="824" height="532" alt="Capture d’écran 2026-05-17 à 12 26 42" src="https://github.com/user-attachments/assets/d7fe05e6-f919-4031-b669-b4395d818313" />
 <img width="824" height="532" alt="Capture d’écran 2026-05-17 à 12 28 25" src="https://github.com/user-attachments/assets/85a4d709-af7e-4640-9032-f189eb9247fa" />
 
 ## Soldered another PCB but even smaller </br>
 The atmega328P-au was hard to do, had to resolder it 5 times until placed exactly on the pads.</br>
-size of the MCU is 7mm x 7mm and 32 pads
+size of the MCU is 7mm x 7mm and 32 pads </br>
+example size of a LED 
+
+Top View Drawings
+0402 — 1.0 × 0.5 mm
+
+←——— 1.0 mm ———→
+
+    ┌──┐┌────────────────┐┌──┐
+    │  ││                ││  │
+↕   │  ││  A          K  ││  │
+0.5 │  ││           ╎    ││  │
+mm  │  ││                ││  │
+    └──┘└────────────────┘└──┘
+     pad      body        pad
+
+  A = anode (+)   K = cathode (−)
+  ╎ = cathode mark
 
 
 <img width="583" height="965" alt="carte" src="https://github.com/user-attachments/assets/ea49f76e-7522-4df0-b6d8-70a1da3fbb52" />
